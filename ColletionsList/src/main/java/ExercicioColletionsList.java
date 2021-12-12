@@ -19,8 +19,11 @@ public class ExercicioColletionsList {
 //Substitua o nome Carlos por Roberto.
         listName.set(2, "Roberto");
         System.out.println(listName);
-        
+
 //Retorne o nome da posição 1.
+        String positionName = listName.get(1);
+        System.out.println("Nome na posição 1: " + positionName);
+
 //Remova o nome da posição 4.
 //Remova o nome João.
 //Retorne a quantidade de itens na lista.
