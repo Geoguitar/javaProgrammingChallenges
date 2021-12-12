@@ -4,8 +4,18 @@ import java.util.List;
 public class ExercicioColletionsList {
     public static void main(String[] args) {
 //        1- Criar uma lista e executar as operações abaixo:
+        List<String> listName = new ArrayList<>();
+
 //        Adicione 5 nomes: Juliana, Pedro, Carlos, Larissa e João.
+        listName.add("Juliana");
+        listName.add("Pedro");
+        listName.add("Carlos");
+        listName.add("Larissa");
+        listName.add("João");
+
 //        Navegue na lista exibindo cada nome no console.
+        
+
 //        Substitua o nome Carlos por Roberto.
 //        Retorne o nome da posição 1.
 //        Remova o nome da posição 4.
