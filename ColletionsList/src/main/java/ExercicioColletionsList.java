@@ -25,9 +25,20 @@ public class ExercicioColletionsList {
         System.out.println("Nome na posição 1: " + positionName);
 
 //Remova o nome da posição 4.
+        System.out.println(listName);
+        listName.remove(4);
+        System.out.println(listName);
+
 //Remova o nome João.
+        listName.remove("João");
+        System.out.println(listName);
+
 //Retorne a quantidade de itens na lista.
+        int quantidadeItens = listName.size();
+        System.out.println("Itens na Lista: " + quantidadeItens);
+
 //Verifique se o nome Juliano existe na lista.
+
 //Crie uma nova lista com os nomes: Ismael e Rodrigo.
 //Adicione todos os itens da nova lista na primeira lista criada.
 //Ordene os itens da lista por ordem alfabética.
