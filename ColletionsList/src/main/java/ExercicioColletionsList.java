@@ -38,6 +38,8 @@ public class ExercicioColletionsList {
         System.out.println("Itens na Lista: " + quantidadeItens);
 
 //Verifique se o nome Juliano existe na lista.
+        boolean pesquisaNome = listName.contains("Juliano");
+        System.out.println("Resultado de pesquisa: " + pesquisaNome);
 
 //Crie uma nova lista com os nomes: Ismael e Rodrigo.
 //Adicione todos os itens da nova lista na primeira lista criada.
