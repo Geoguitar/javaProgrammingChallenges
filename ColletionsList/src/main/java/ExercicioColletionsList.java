@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ExercicioColletionsList {
@@ -14,7 +15,9 @@ public class ExercicioColletionsList {
         listName.add("João");
 
 //Navegue na lista exibindo cada nome no console.
-        System.out.println(listName);
+        for (String listNames:listName) {
+            System.out.println(listNames);
+        }
 
 //Substitua o nome Carlos por Roberto.
         listName.set(2, "Roberto");
@@ -42,9 +45,19 @@ public class ExercicioColletionsList {
         System.out.println("Resultado de pesquisa: " + pesquisaNome);
 
 //Crie uma nova lista com os nomes: Ismael e Rodrigo.
+        List<String> listNameNew = new ArrayList<>();
+        listNameNew.add("Ismael");
+        listNameNew.add("Rodrigo");
 //Adicione todos os itens da nova lista na primeira lista criada.
+        
+
 //Ordene os itens da lista por ordem alfabética.
+        Collections.sort(listName);
+        System.out.println("Lista ordenada: " + listName);
+
 //Verifique se a lista está vazia.
+        boolean listaVazia = listName.isEmpty();
+        System.out.println("Lista está vázia? : " + listaVazia);
 
     }
 }
