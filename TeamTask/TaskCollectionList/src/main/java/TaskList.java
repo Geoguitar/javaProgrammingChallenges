@@ -9,21 +9,21 @@ public class TaskList {
 
 //        01-Adicione 10 nomes: Juliana,Joana,Claudia,Willian,Paula,Tatiana,Pedro,Carlos,Larissa e João.
 //        02-Navegue na lista exibindo cada nome no console.
-//        03-Substitua o nome Carlos por Roberto.
+//        03-Substitua o nome Carlos por Richard.
 
 //        04-Retorne o nome da posição 1.
         String positionName = listName.get(1);
         System.out.println("Nome na posição 1: " + positionName);
 
-//        05-Remova o nome da posição 4.
+//        05-Remova o nome da posição 6.
 //        06-Remova o nome João.
 //        07-Retorne a quantidade de itens na lista.
 
 //        08-Verifique se o nome Juliano existe na lista.
-        boolean pesquisaNome = listName.contains("Juliano");
+        boolean pesquisaNome = listName.contains("Pedro");
         System.out.println("Resultado de pesquisa: " + pesquisaNome);
 
-//        09-Crie uma nova lista com os nomes: Ismael e Rodrigo.
+//        09-Crie uma nova lista com os nomes: Jonhny e Mary.
 //        10-Adicione todos os itens da nova lista na primeira lista criada.
 //        11-Ordene os itens da lista por ordem alfabética.
 
