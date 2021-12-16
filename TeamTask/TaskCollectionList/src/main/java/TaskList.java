@@ -12,6 +12,10 @@ public class TaskList {
 //        02-Navegue na lista exibindo cada nome no console.
 //        03-Substitua o nome Carlos por Roberto.
 //        04-Retorne o nome da posição 1.
+
+        String positionName = listName.get(1);
+        System.out.println("Nome na posição 1: " + positionName);
+
 //        05-Remova o nome da posição 4.
 //        06-Remova o nome João.
 //        07-Retorne a quantidade de itens na lista.
