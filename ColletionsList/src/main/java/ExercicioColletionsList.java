@@ -57,7 +57,11 @@ public class ExercicioColletionsList {
 
 //Verifique se a lista está vazia.
         boolean listaVazia = listName.isEmpty();
-        System.out.println("Lista está vázia? : " + listaVazia);
-
+        if (false){
+            System.out.println("A lista encontra-se vázia!!");
+        }else{
+            int totalItens = listName.size();
+            System.out.println("Total de itens na Lista: " + totalItens);
+        }
     }
 }
