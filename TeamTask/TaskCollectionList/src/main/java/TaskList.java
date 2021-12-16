@@ -20,6 +20,10 @@ public class TaskList {
 //        06-Remova o nome João.
 //        07-Retorne a quantidade de itens na lista.
 //        08-Verifique se o nome Juliano existe na lista.
+
+        boolean pesquisaNome = listName.contains("Juliano");
+        System.out.println("Resultado de pesquisa: " + pesquisaNome);
+
 //        09-Crie uma nova lista com os nomes: Ismael e Rodrigo.
 //        10-Adicione todos os itens da nova lista na primeira lista criada.
 //        11-Ordene os itens da lista por ordem alfabética.
